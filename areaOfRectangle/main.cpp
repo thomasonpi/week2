@@ -1,15 +1,19 @@
-//
-//  main.cpp
-//  areaOfRectangle
-//
-//  Created by Paul Thomason on 9/5/19.
-//  Copyright © 2019 Paul Thomason. All rights reserved.
-//
-
 #include <iostream>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main()
+{
+    int length, width, area;
+    
+    cout << "let's calculate the area of a rectangle!\n";
+    cout << "what is the legnth of your rectangle? ";
+    cin >> length;
+    cout << '\n';
+    cout << "and the width? \n";
+    cin >> width;
+    
+    area = length * width;
+    cout << "the area of your box is: " << area << '\n';
+    
     return 0;
 }
